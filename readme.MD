@@ -22,7 +22,7 @@ MongoDB setup locally or using a cloud service like MongoDB Atlas
 Steps to Run Locally
 Clone the repository:
 
-git clone https://github.com/your-username/mern-bookstore.git
+git clone https://github.com/ameeronline/book-store.git
 Navigate to the project directory:
 
 cd book-store
@@ -38,7 +38,7 @@ npm install
 Configure the environment variables:
 
 Create a .env file in the server directory and add your MongoDB connection string:
-MONGODB_URI=your-mongo-db-connection-string
+MONGODB_URI=your-mongo-db-connection-string //Replace with your local connection string 
 
 PORT=3000
 Start the servers:
@@ -48,7 +48,7 @@ cd backend
 npm run dev
 
 Frontend:
-cd ../frontend
+cd /frontend
 npm run dev
 Open the app in your browser:
 
