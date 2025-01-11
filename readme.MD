@@ -57,6 +57,7 @@ Backend API: http://localhost:3000
 
 
 API Endpoints 🔗
+
 GET /books - Fetch all books
 POST /books - Add a new book
 GET /books/:id - Fetch a book by ID
